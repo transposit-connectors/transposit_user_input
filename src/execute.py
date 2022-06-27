@@ -1,5 +1,3 @@
 def execute(inputs):
-
-
-# For sample code and reference material, visit
-# https://www.transposit.com/docs/references/python-operations
+    api.log(inputs["input_form_blocks"])
+    task.create("this.handle_response", {}).continueAfterUserInput(inputs["input_form_blocks"])

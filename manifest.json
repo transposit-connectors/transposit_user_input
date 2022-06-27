@@ -8,8 +8,27 @@
             "name": "context",
             "description": "Transposit sends information related to the application run via this \u0027context\u0027 parameter",
             "type": "OBJECT"
+          }, {
+            "name": "input_form_blocks",
+            "type": "OBJECT",
+            "required": true,
+            "prettyName": "Input Form Blocks"
           }],
           "js": "execute.py",
+          "lang": "python"
+        }
+      }, {
+        "id": "handle_response",
+        "function": {
+          "parameters": [{
+            "name": "context",
+            "description": "The \u0027context\u0027 parameter is often essential to operations published to Mission Control",
+            "type": "OBJECT"
+          }, {
+            "name": "input_results",
+            "type": "OBJECT"
+          }],
+          "js": "handle_response.py",
           "lang": "python"
         }
       }],
