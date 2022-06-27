@@ -15,7 +15,12 @@
             "prettyName": "Input Form Blocks"
           }],
           "js": "execute.py",
-          "lang": "python"
+          "lang": "python",
+          "outputs": [{
+            "name": "outputs",
+            "type": "OBJECT",
+            "prettyName": "User input"
+          }]
         }
       }, {
         "id": "handle_response",
@@ -29,7 +34,12 @@
             "type": "OBJECT"
           }],
           "js": "handle_response.py",
-          "lang": "python"
+          "lang": "python",
+          "outputs": [{
+            "name": "outputs",
+            "type": "OBJECT",
+            "prettyName": "User input"
+          }]
         }
       }],
       "javascriptAPIVersion": "6",
