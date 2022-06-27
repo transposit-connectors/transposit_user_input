@@ -17,9 +17,9 @@
           "js": "execute.py",
           "lang": "python",
           "outputs": [{
-            "name": "output_param",
+            "name": "outputs",
             "type": "OBJECT",
-            "prettyName": "Outputs"
+            "prettyName": "User input"
           }]
         }
       }, {
@@ -34,7 +34,12 @@
             "type": "OBJECT"
           }],
           "js": "handle_response.py",
-          "lang": "python"
+          "lang": "python",
+          "outputs": [{
+            "name": "outputs",
+            "type": "OBJECT",
+            "prettyName": "User input"
+          }]
         }
       }],
       "javascriptAPIVersion": "6",
