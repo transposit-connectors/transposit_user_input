@@ -35,6 +35,8 @@
       "javascriptAPIVersion": "6",
       "source": "src",
       "userSettingsDisplay": "GENERATED"
-    }
+    },
+    "description": "Takes user input using a form builder and outputs it",
+    "displayName": "Transposit user input form builder"
   }
 }
